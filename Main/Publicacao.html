@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="ControllerInserirPublicacao.php" method="POST">
+            <fieldset>
+                <legend>Registre um Fato Importante, Relevante e Interessante</legend>
+                <label for="titulo">Titulo</label>
+                <br>
+                <input type="text" id="titulo" name="titulo"> 
+                <br>
+                <label for="link">Link</label>
+                <br>
+                <input type="text" id="link" name="link"> 
+                <br>
+                <label for="descricao">Descrição</label>
+                <br>
+                <textarea id="descricao" name="descricao" rows="10" cols="30"></textarea>  
+                <br>
+                <label for="avaliacao">Avaliação</label>
+                <br>
+                <input type="text" id="avaliacao" name="avaliacao">
+                <br>
+                <br>
+                <input type="submit" value="Enviar Dados">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="ControllerInserirPublicacao.php" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Registre uma Imagem</legend>
+                <label for="titulo">Titulo</label>
+                <br>
+                <input type="text" id="titulo" name="titulo"> 
+                <br>
+                <label for="image">Imagem</label>
+                <br>
+                <input type="file" name="image" accept="image/*">
+                <br>
+                <br>
+                <input type="submit" value="Enviar Dados">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="ControllerVisualizarPublicacao.php" method="POST" enctype="multipart/form-data">
+            <br>
+            <input type="submit" value="Mostrar Conteúdo">
+        </form>
+    </div>
+</body>
+</html>
