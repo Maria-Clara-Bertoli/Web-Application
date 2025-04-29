@@ -1,4 +1,4 @@
-# Aplicação de Publicação de Notícias para a Disciplina de Desenvolvimento Web II
+# Aplicação de Publicação de Notícias Para a Disciplina de Desenvolvimento Web II
 
 Esta é uma aplicação desenvolvida para a disciplina **Desenvolvimento Web II**, que utiliza as linguagens **PHP** e **HTML**, além do banco de dados não relacional **Redis**. 
 
